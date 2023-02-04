@@ -15,5 +15,14 @@
       <password>ariff</password>
     </server>
   </servers>
+  
+  <mirrors>
+    <mirror>
+      <id>central</id>
+      <name>central</name>
+      <url>http://54.196.169.1:8081/repository/mymaven-central/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
 
 </settings>
