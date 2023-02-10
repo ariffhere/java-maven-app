@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                checkout scmGit(branches: [[name: '*/ak']], extensions: [], userRemoteConfigs: [[credentialsId: '5166b3ee-bc97-4d13-b7fe-5b39c4453907', url: 'https://github.com/ariffhere/java-maven-app.git']])
+                checkout scmGit(branches: [[name: '*/ak']], extensions: [], userRemoteConfigs: [[credentialsId: 'git', url: 'https://github.com/ariffhere/java-maven-app.git']])
             }
              
         }
