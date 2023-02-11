@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.6.2-SNAPSHOT</version>
+  <version>1.6.2-${env.BUILD_NUMBER}</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -74,18 +74,18 @@
  <repositories>
     <repository>
       <id>mymaven-group</id>
-      <url>http://3.234.221.104:8081/repository/mymaven-group/</url>
+      <url>http://44.197.196.214:8081/repository/mymaven-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>mymaven-snapshot</id>
-      <url>http://3.234.221.104:8081/repository/mymaven-snapshot/</url>
+      <url>http://44.197.196.214:8081/repository/mymaven-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>mymaven-release</id>
-      <url>http://3.234.221.104:8081/repository/mymaven-release/</url>
+      <url>http://44.197.196.214:8081/repository/mymaven-release/</url>
     </repository>
   </distributionManagement>
 </project>
